@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&display=swap');
+       
+body{
+    font-family: 'Epilogue', sans-serif;
+}
+.mit-link::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.9s;
+}        
+.mit-link:hover::after{
+    width: 30%;
+}
